@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+        
+        license  :- Mark Roby Shafik
+        linkedin :- https://www.linkedin.com/in/mark-roby-26616b211/
+        
+    -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copuon</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Vendor CSS Files -->
+
+    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!--
+ <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+ -->
+    <link href="../css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <link href="../css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../css/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../css/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../css/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="../css/java.js" async></script>
+    <link rel="icon" type="image/x-icon" href="..//image/icon logo.png">
+
+</head>
+
+<body>
+
+
+    <div id="preloader"></div>
+
+    <header class="header">
+        <a href="#" class="logo"> <img src="../image/icon logo.png" height="60px" width="50px"> <span> TRINITY <span
+                    style="color:rgb(143, 13, 13)  ;"> PHARMA </span> </span></a>
+        <nav class="navigation">
+            <a href="index.html" class="Services">Home</a>
+            <a href="prodact.html" class="Projects">products</a>
+            <a href="ourteam.html" class="Projects">OurTeam</a>
+            <a href="#contact" class="Contact">Contact</a>
+            <a href="https://www.google.com/maps/place/Trinity+pharma+Egypt/@30.0003628,31.1637117,15z/data=!4m5!3m4!1s0x0:0x970548d44fdb3109!8m2!3d30.0003628!4d31.1637117"
+                class="Location"><img src="../image/map.png" width="40px" height="40px"></a>
+
+        </nav>
+    </header>
+
+
+
+
+    <div class="container" style="width: 100%;
+    height: 100vh;
+    background: #f0fff3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+">
+        <div class="coupon-card">
+            <img src="../image/Promo code/logo.png" class="logo-p">
+            <h3> 20% OFF on all products </h3>
+            <div class="coupon-row">
+                <span id="cpnCode">mk8734kn3</span>
+                <span id="cpnBtn">COPY CODE</span>
+            </div>
+            <P> Valid Till: 20 Dec, 2021</P>
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+    </div>
+    <script>
+
+        var cpnBtn = document.getElementById("cpnBtn");
+        var cpnCode = document.getElementById("cpnCode");
+
+
+        cpnBtn.onclick = function () {
+            navigator.clipboard.writeText(cpnCode.innerHTML);
+            cpnBtn.innerHTML = "COPIED";
+            setTimeout(function () {
+                cpnBtn.innerHTML = "COPY CODE";
+            }, 3000);
+        }
+
+    </script>
+
+    <!--  ===================================================================================
+    =========================   contact  ====================================================
+=============================================================================================
+-->
+    <section class="cards contact" id="contact">
+        <h2 class="title">Contact</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <a href="tel:01033038532">01050863919</a>
+
+
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="info">
+                    <h3>WhatsApp</h3>
+                    <a href="https://wa.me/2015018020868">01050863919</a>
+
+
+
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <a href="mailto:mmm123@gmail.com">gmail.com</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <!--================================================================================
+==============    Back to top button   ===========================================
+==================================================================================
+-->
+
+
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!--================================================================================
+==============    footer   ===========================================
+==================================================================================
+-->
+
+
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>TREINITY PHARMA</h3>
+                        <p>
+
+                            <strong>Phone:</strong> 01050863919<br>
+                            <strong>Email:</strong> mmm123@gmail.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="../html/index.html">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="../html/index.html">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a
+                                    href="https://www.google.com/maps/place/Trinity+pharma+Egypt/@30.0003628,31.1637117,15z/data=!4m5!3m4!1s0x0:0x970548d44fdb3109!8m2!3d30.0003628!4d31.1637117">Location</a>
+                            </li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="../html/ourteam.html">Our Team </a></li>
+
+
+                        </ul>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>TRINITY PHARMA</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    <!-- coming soon -->
+                    developd by <a href="https://www.linkedin.com/in/mark-roby-26616b211/"> Mark Roby</a>
+                </div>
+            </div>
+
+        </div>
+    </footer><!-- End Footer -->
+
+</body>
+
+</html>
